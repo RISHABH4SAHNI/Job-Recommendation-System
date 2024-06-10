@@ -1,0 +1,95 @@
+{
+  "Name": "Renaissance Mukhopadhyay",
+  "UserExperience": [
+    {
+      "Role": "Data Analyst",
+      "Company": "Indian Red Cross Society, Kolkata",
+      "Duration": "May 2024 - July 2024",
+      "Description": "Worked on creating an elaborate automated backend data entry system. Helped maintain the vast management of data and information entries in the association. Strengthened a foot in social services by visiting OPDs and participating in the noble causes of the organisation."
+    },
+    {
+      "Role": "Research Intern",
+      "Company": "Birla Institute of Technology and Science",
+      "Duration": "August 2024 - December 2024",
+      "Description": "Worked on the project titled 'Rational Design of MOF and MOF-based composites for Adsorptive Gas Separation'. Formulated an elaborate manuscript, under the guidance of Professor Gupta, detailing findings, which was ultimately published."
+    },
+    {
+      "Role": "Business Development Intern",
+      "Company": "FernGlasz",
+      "Duration": "May 2024 - Present",
+      "Description": "Collaborated with the core team and helped in operations of the website. Worked as the FernGlasz Ambassador and helped bring students on the platform from tier-1 colleges, including BITS. Reached out to various startups and got them to consider hiring on the platform."
+    }
+  ],
+  "Education": {
+    "Degree": "B.E. (Hons.) in Chemical Engineering",
+    "Year": "2025",
+    "CGPA": "7.14",
+    "Class XII": {
+      "School": "Hem Sheela Model School, Durgapur",
+      "Board": "CBSE",
+      "Percentage": "97.2%",
+      "Year": "2022"
+    },
+    "Class X": {
+      "School": "Auxilium Convent School, Bandel",
+      "Board": "CISCE",
+      "Percentage": "98.2%",
+      "Year": "2020"
+    }
+  },
+  "Skills": {
+    "Hard Skills": {
+      "MySQL": "80%",
+      "Python": "90%",
+      "C": "70",
+      "Java": "75%"
+    },
+    "Soft Skills": {
+      "Oratory": "Expert",
+      "Public Speaking": "Expert",
+      "Debating": "Expert",
+      "Dance": "Intermediate",
+      "Painting": "Intermediate",
+      "Calligraphy": "Intermediate",
+      "Reading": "Expert"
+    }
+  },
+  "Projects": [
+    {
+      "Title": "MOF Synthesis and Characterisation - ADSORPTIVE STUDIES",
+      "Duration": "August 2024 - December 2024",
+      "Description": "Monitored MOF synthesis experiments and studied the solvothermal and refluxing procedures. Assisted in data acquisition, presentation, interpretation and analysis and prepared publications related to the project."
+    },
+    {
+      "Title": "Molecular Modeling and Analysis - AVOGADRO SOFTWARE",
+      "Duration": "March 2024 - April 2024",
+      "Description": "Project involved visualising molecular structures in 3-D and presenting them at different angular rotations. Effects of changing multiple lattice parameters and number of monomers were studied and a slideshow was prepared."
+    },
+    {
+      "Title": "Simulating Transient Current for an Electric Circuit - using MATLAB and ODEs",
+      "Duration": "April 2024 - May 2024",
+      "Description": "Solved a system of ordinary differential equations with Euler’s method and elaborately detailed the calculations and plots. Formulated a MATLAB Code for the same, performed parametric analysis and plotted graphs comparing the methods."
+    }
+  ],
+  "Certifications": [],
+  "Interests": [
+    "True Crime",
+    "Psychology",
+    "Suspense Stories"
+  ],
+  "Achievements": [
+    "Received BITS MCN Scholarship, which covers 40% of the college tuition fees, for outstanding academic performance.",
+    "Received HSMS Scholarship for topping school in ICSE’20, which covered 100% of the school tuition fees."
+  ],
+  "Contact": {
+    "Email": "f20220824@pilani.bits-pilani.ac.in",
+    "Phone": "9330819007",
+    "LinkedIn": "",
+    "GitHub": ""
+  },
+  "Recommended_Job_Domains": [
+    "Data Science",
+    "Engineering",
+    "Operations"
+  ]
+}

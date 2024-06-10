@@ -1,0 +1,81 @@
+{
+  "Name": "RISHABH SAHNI",
+  "UserExperience": [
+    {
+      "Role": "Data Analyst",
+      "Company": "Macquarie Global Services Pvt Ltd",
+      "Duration": "May 2023 - Present",
+      "Description": "Part of the Financial Platform Solutions-Enabling Technologies Team under Finance Management Group of Macquarie. Built new Kanban boards in Jira and Power BI dashboards for effective tracking and management of issues."
+    },
+    {
+      "Role": "Quant Researcher",
+      "Company": "Birla Institute of Technology and Sciences",
+      "Duration": "Dec 2022 - Jun 2023",
+      "Description": "Conducted exploratory analysis of stock data from 5 asset classes, integrated machine learning models (ARIMA and SVM) into the existing framework considering financial market and economic principles."
+    },
+    {
+      "Role": "Machine Learning Intern",
+      "Company": "Suvidha Mahila Mandal",
+      "Duration": "Jan 2023 - Mar 2023",
+      "Description": "Implemented diverse disambiguation models based on research paper, conducted model evaluation using datasets to inform strategic decision-making in text disambiguation."
+    },
+    {
+      "Role": "Data Analyst",
+      "Company": "The Sparks Foundation",
+      "Duration": "Feb 2023 - Jun 2023",
+      "Description": "Performed an Exploratory Analysis of sales data of the supermarket, identified business problems and opportunities for increased profitability."
+    }
+  ],
+  "Education": {
+    "Degree": "B.E. (Hons.)",
+    "Major": "Computer Science",
+    "Graduation Year": "2025",
+    "CGPA": "8.31"
+  },
+  "Skills": {
+    "Hard Skills": {
+      "MySQL": 80,
+      "Python": 90,
+      "C++": 75,
+      "NumPy": 85,
+      "Pandas": 85,
+      "Power BI": 80,
+      "Machine Learning": 90,
+      "Java": 70,
+      "Alteryx": 75,
+      "JIRA": 80,
+      "C Programming": 75
+    },
+    "Soft Skills": {}
+  },
+  "Projects": [
+    {
+      "Title": "Quant Analysis Research - QUANT",
+      "Duration": "Jan 2023 - Jun 2023",
+      "Description": "Analyzed historical data of 5 asset classes to identify correlations, trends, and potential hedging opportunities for diversification in the US market. Implemented the ARIMA model for stock price prediction and SVM for classifying stock price data."
+    },
+    {
+      "Title": "Hostel Allocation System - Database Management System",
+      "Duration": "Apr 2023 - Jun 2023",
+      "Description": "Developing a web-based hostel allocation system using SQL, Node.js, and Tkinter to facilitate room assignments and management for students at BITS."
+    }
+  ],
+  "Certifications": {},
+  "Interests": {},
+  "Achievements": [
+    "President- Haryana Cultural Association: Successfully led a 50+ member core team in organizing events and activities, designed culturally relevant merchandise for the Haryanvi Cultural Association.",
+    "Executive Committee Member- Student Union: Organized successful events during the 41st editions of APOGEE and OASIS, provided academic guidance and support for the students of BITS.",
+    "BITSpace Founder: Developed an all-in-one web application for academics, clubs, departments, associations, alumni, career-guide videos, and campus news at BITS Pilani."
+  ],
+  "Contact": {
+    "Email": "F20211630@PILANI.BITS-PILANI.AC.IN",
+    "Phone": "9310565356",
+    "LinkedIn": "",
+    "GitHub": ""
+  },
+  "Recommended_Job_Domains": [
+    "Data Science",
+    "Engineering",
+    "Product Management"
+  ]
+}
