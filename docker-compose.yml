@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: job-reco-api
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./scripts:/app/scripts
+      - ./data:/app/data
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+
+  # db:
+  #   image: postgres:15
+  #   container_name: job-reco-db
+  #   environment:
+  #     POSTGRES_DB: jobreco
+  #     POSTGRES_USER: jobreco
+  #     POSTGRES_PASSWORD: jobreco
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
+
+
