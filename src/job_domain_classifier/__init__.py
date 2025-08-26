@@ -1,0 +1,1 @@
+"""Job Domain Classification module"""
