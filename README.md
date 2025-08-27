@@ -83,7 +83,7 @@ Start the FastAPI server:
 uvicorn src.api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-Open the interactive docs at `http://127.0.0.1:8000/docs`.
+Open the interactive docs at `http://127.0.0.1:8000/docs` or visit `/docs` when running the server.
 
 ## API Overview
 - Note: The classification endpoint requires a trained model saved under `data/models/`. Run training first if you haven't.
@@ -132,6 +132,31 @@ The best model will be saved under `data/models/`.
 ```bash
 python -m unittest discover -s tests
 ```
+
+## Docker
+Build the image and run the API:
+```bash
+docker build -t job-reco:dev .
+docker run --rm -p 8000:8000 -e API_HOST=0.0.0.0 -e API_PORT=8000 -v %cd%/data:/app/data job-reco:dev
+```
+
+Using docker-compose (recommended for development):
+```bash
+docker compose up --build
+```
+
+What this does:
+- Builds from `Dockerfile`
+- Serves the API on port 8000 with hot reload
+- Mounts `./src`, `./config`, `./scripts`, and `./data` into the container
+
+Environment variables (can be set via a `.env` file at project root):
+- `API_HOST` (default `0.0.0.0`)
+- `API_PORT` (default `8000`)
+- `MLFLOW_TRACKING_URI` (optional)
+
+Optional database:
+- Not required by default. A Postgres service is stubbed and commented in `docker-compose.yml`. Uncomment and configure if you add persistence later.
 
 ## Development Notes
 - Use `pip install -e .` to ensure imports like `src.api` resolve correctly during development.
